@@ -1,0 +1,36 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+.container {
+
+position: relative; 
+background-image: url(wall.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+height: 700px;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+h1 {
+	color:red;
+}
+
+p {
+
+background-color: #c9d0db;
+border-color: #fff;
+border-style: solid;
+position: absolute;
+display: inline-block;
+font-size: 25px;
+color: red;	
+margin: 0;
+left: 50%;
+top: 50%;
+transform: (translate -50%, -50%);
+}

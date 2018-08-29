@@ -1,0 +1,53 @@
+htlm body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	font-size: 25px;
+	margin: 0px;
+	height: 600px;
+	display: grid;
+	grid-template-columns: repeat(12,auto);
+	grid-template-rows: repeat(3, auto);
+	grid-gap: 10px;
+	grid-template-areas: 
+      "m h h h h h h h h h h h"
+      "m c c c c c c c c c c c"
+      "m c c c c c c c c c c c"
+      "m c c c c c c c c c c c"
+      "m c c c c c c c c c c c"
+      "m c c c c c c c c c c c"
+      "m c c c c c c c c c c c"
+      "m c c c c c c c c c c c"
+      "m c c c c c c c c c c c"
+      "m c c c c c c c c c c c"
+      "m c c c c c c c c c c c"
+	  "m f f f f f f f f f f f";
+}
+
+.header {
+	grid-area: h;
+}
+
+.menu {
+	grid-area: m;
+}
+
+.content  {
+	grid-area: c;
+}
+
+.footer {
+	grid-area: f;
+
+}
+ 	/*	Grid Properties
+grid-template-areas: 
+      "header header header"
+      "advert content content"
+      "footer footer footer";
+
+      */
